@@ -255,27 +255,14 @@ main {
   object-position: top;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .carusel {
   margin-top: 100px;
   overflow: hidden;
 }
 
 .carusel_container {
-    display: flex;
-    flex-shrink: 0;
+  display: flex;
+  flex-shrink: 0;
 }
 
 .carusel_item {
@@ -287,13 +274,12 @@ main {
 }
 
 .block {
-    display: none;
+  display: none;
 }
 
 .carusel_item img {
-    margin-left: 65px;
+  margin-left: 65px;
 }
-
 
 .carusel_text-wrapper {
   display: flex;
@@ -392,28 +378,18 @@ main {
 }
 
 .control {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px;
 }
 
 .control_number {
-    color: rgba(192, 192, 192, 1);
+  color: rgba(192, 192, 192, 1);
 }
 
 .control_number span {
-    color: rgba(54, 72, 68, 1);
+  color: rgba(54, 72, 68, 1);
 }
-
-
-
-
-
-
-
-
-
-
 
 .footer {
   margin-top: 160px;
@@ -540,11 +516,10 @@ main {
     display: block;
   }
 
- .carusel_item {
+  .carusel_item {
     height: 500px;
     width: 360px;
- }
-
+  }
 
   .carusel_btn_wrapper {
     flex-direction: column;
@@ -571,9 +546,6 @@ main {
   .main_wrapper {
     display: flex;
     flex-direction: column-reverse;
-  }
-
-  .hero {
   }
 
   .hero_title {
