@@ -379,8 +379,14 @@ main {
 
 .control {
   display: flex;
-  justify-content: space-evenly;
-  margin: 30px;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.control button {
+  border: none;
+  background-color: #fff;
 }
 
 .control_number {
